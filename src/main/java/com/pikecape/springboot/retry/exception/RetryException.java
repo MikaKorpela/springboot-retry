@@ -1,4 +1,4 @@
-package com.pikecape.springboot.retryable.exception;
+package com.pikecape.springboot.retry.exception;
 
 public class RetryException extends RuntimeException{
   public RetryException(String message) {

@@ -1,4 +1,4 @@
-package com.pikecape.springboot.retryable;
+package com.pikecape.springboot.retry;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
