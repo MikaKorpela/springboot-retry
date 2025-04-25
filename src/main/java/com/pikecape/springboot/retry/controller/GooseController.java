@@ -1,8 +1,6 @@
 package com.pikecape.springboot.retry.controller;
 
-import com.pikecape.springboot.retry.model.Duck;
 import com.pikecape.springboot.retry.model.Goose;
-import com.pikecape.springboot.retry.service.DuckService;
 import com.pikecape.springboot.retry.service.GooseService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,5 +18,4 @@ public class GooseController {
   public Goose getGoose(@PathVariable String uid) {
     return gooseService.getGoose(uid);
   }
-
 }
