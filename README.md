@@ -53,7 +53,9 @@ GET http://localhost:8080/api/gooses/1
 }
 ```
 
-## Observations ##
+## Notifications ##
+
+The `@Retryable` method and the the method calling it must exist in different classes; otherwise the retry does not work.
 
 The `retryFor` attribute does not seem to work for exceptions that are directly extending the `RuntimeException`.
 
